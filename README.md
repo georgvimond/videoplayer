@@ -8,8 +8,13 @@ In the project directory, you can run:
 
 ### `npm start`
 
-## Note
-No content wil be visible until the server is started.
+
+### Note that no content wil be visible until the server is started.
+
+
+
+--------
+
 
 
 Runs the app in the development mode.\
