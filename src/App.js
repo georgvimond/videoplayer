@@ -49,8 +49,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Linear Channel Player</h1>
-        <h3>Now playig: {assetTitle}</h3>
-        <video ref={videoRef} controls style={{ width: '80%', maxWidth: '800px' }} />
+        {assetTitle && <h3>Now playig: {assetTitle}</h3>}
+        <video ref={videoRef} controls style={{ width: '80%', maxWidth: '800px' }} muted = "muted" />
       </header>
     </div>
   );
